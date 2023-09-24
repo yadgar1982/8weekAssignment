@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact US </title>
+</head>
+<body>
+<link rel="stylesheet" href="./style.css" media="all" />
+<!-- in this page first two pages ( main page and about us) has been linked throgh anchor link  -->
+<a href="index.html" 
+title="Home Page"
+>Home Page</a> | 
+<a href="aboutUS.html" 
+title="About US"
+>About US</a>
+<!-- in the body a horizontal line has separataed the page links from the rest of the page -->
+
+
+    <hr color="red" align="left" width="1200">
+    
+    <table><tr>
+<!-- before form for contact an image is attached inside a table with specifid height and width -->
+        <td width =1200>
+            <img src="assets/contact.png" width="1200" height="300">
+        </td>
+    </tr></table>
+    <!-- in the form email and phon number and text area are given for contacting the customme -->
+    <form action="get">
+    <p forcolor="green"><b><u>For further information you can contact us: </u></b><br>
+        <br>
+        <label for="Email:"  >Email: </label>
+        <input type="email" required><br>
+        <label for="Phone">Phone:</label>
+        <input type="number" required> <br><br><b>Write Your Comments here:</b> <br>
+        <textarea name="Insert your Comments" id="your comments" cols="160" rows="10" required></textarea>
+        <br>Submit:    <input type="submit" title="Submit:" value="submit" >
+    </p>
+    </form>
+</body>

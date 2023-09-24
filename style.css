@@ -1,0 +1,88 @@
+.h1,h2,h3 {
+    font-size: 25px;
+    color:  rgb(60, 39, 3);
+    text-align: left;
+    text-shadow: #120505;
+    text-decoration-color: blanchedalmond;
+
+
+}
+
+
+#paraOne{
+text-align: justify;
+border: 1px;
+box-shadow: color-mix(in srgb-linear, color percentage, color percentage);
+scrollbar-shadow-color: blue;
+text-wrap: wrap;
+max-inline-size: 1200px;
+background-color:rgb(239, 230, 237);
+color: rgb(24, 14, 1);
+font-size: 18px;
+padding-left: 10px;
+padding-right: 10px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 0.3rem;
+border-color: rgb(54, 7, 7);
+max-width: 1200px;
+}
+
+body{
+    background-image: linear-gradient(90deg, rgb(233, 183, 153) 20%, rgb(249, 249, 249) 35%, rgb(103, 128, 127) 100%);
+}
+
+
+.table {
+    border-collapse:collapse;
+}
+
+th, td {
+    border-radius: 0.5rem;
+    border: 1px solid ;
+    border-color:white;
+    background-color: rgb(219, 235, 237);
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+#time{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: darkblue;
+}
+
+textarea{
+    border-color: darkorange;
+    background-color: whitesmoke;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius:2rem;
+    font-size: 18px;
+    max-width: 1200px;
+    box-shadow: #120505 4 px;
+    -webkit-box-stroke-width: 2px;
+    -webkit-box-stroke-color: black;
+    box-shadow: 3px 3px 15px #FF0000;
+    
+    
+}
+
+#welcome{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    font-weight: 300px;
+    color: orange;
+    font-display:inherit;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 3px 3px 15px #FF0000;
+}
+
+form{
+    font-size: 18px;
+
+}
